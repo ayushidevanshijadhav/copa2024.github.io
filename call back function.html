@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title> call back function</title>
+    </head>
+    <body>
+        <script>
+            function sayhello()
+            {
+                document.write ("Hello");
+            }
+            function add(num1,num2,copa){
+                document.write (num1+num2);
+                copa ();
+            }
+            let a = 10;
+            let b = 20;
+            add (a,b,sayhello);
+        </script>
+    </body>
+</html>
